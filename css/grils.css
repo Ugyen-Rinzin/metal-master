@@ -1,0 +1,364 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #cce5e6 !important;
+  font-family: Roboto Serif, system-ui !important;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+#home-banner {
+  width: 100%;
+  height: 400px;
+  color: black;
+  background-color: antiquewhite;
+  background-image: url("../homeimage/grrrrrrrr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  height: 15vh;
+  width: 100%;
+  background-color: #92c7cf;
+  opacity: 0.8;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+
+.collapse > .navbar-nav > .nav-item > a:hover {
+  background-color: white;
+  gap: 15px;
+}
+
+iframe {
+  width: 100%;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+#head {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.press > a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.press > a:hover {
+  color: Teal;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #92c7cf;
+}
+
+#footerBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+#qr-code {
+  height: 300px;
+  width: 250px;
+  margin: 20px 10px;
+}
+
+#line {
+  width: 100%;
+  padding: 2px;
+  background-color: #1f484f;
+}
+
+.navigation {
+  height: 300px;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.navigation > nav > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1f484f;
+  font-family: "Kanit", sans-serif;
+}
+
+.navigation > nav > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.contact {
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.contact > nav > pre > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1f484f;
+  font-family: "Kanit", sans-serif;
+}
+
+.contact > nav > pre > a :hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.product {
+  height: 300px;
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.product > nav > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1f484f;
+  font-family: "Kanit", sans-serif;
+}
+
+.product > nav > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+hr {
+  width: auto;
+  height: 1px;
+  background-color: black;
+}
+
+#copy {
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 250px;
+  right: 0px;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  text-align: center;
+  transition-duration: 1.1s;
+  color: white;
+  border-radius: 20px;
+  opacity: 0.4;
+}
+.whatsapp:hover {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+}
+
+.phone {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 200px;
+  right: 0px;
+  text-align: center;
+  transition-duration: 1.1s;
+  border-radius: 20px;
+  opacity: 0.4;
+}
+.phone:hover {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+}
+
+.email {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 150px;
+  right: 0px;
+  text-align: center;
+  transition-duration: 1.1s;
+  border-radius: 20px;
+  opacity: 0.4;
+}
+.email:hover {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 100px;
+  right: 0px;
+  text-align: center;
+  transition-duration: 1.1s;
+  border-radius: 20px;
+  opacity: 0.4;
+}
+.arrow:hover {
+  height: 50px;
+  width: 60px;
+  background-color: black;
+}
+
+#left-bottom {
+  background-color: antiquewhite;
+  opacity: 0.8;
+  width: 380px;
+  height: 720px;
+  position: sticky;
+  top: 85px;
+}
+
+#left-bottom > .img > img {
+  height: 70px;
+  width: 70px;
+}
+
+.main-div {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.hidden {
+  height: auto;
+  width: 500px;
+  background-color: #aad7d9;
+  text-align: center;
+  display: none;
+  padding: 20px;
+  margin: 5px;
+  color: teal;
+  margin-left: 20px;
+}
+
+.hidden > img {
+  height: 50px;
+  width: 50px;
+}
+
+#overall > .main-div > .hidden > table > tr {
+  border: 1px solid black;
+}
+
+.closeButton {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: teal;
+}
+
+.child {
+  height: 390px;
+  width: 300px;
+  background-color: #aad7d9;
+  box-shadow: 0px 0px 5px gray;
+  text-align: center;
+  margin: 5% auto;
+  margin-left: 20px;
+  color: #1f484f;
+}
+
+.child > img {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.child > .learnmore {
+  background-color: #aad7d9;
+  box-shadow: 0px 0px 2px black;
+  margin-top: 20px;
+  transition: 1.1s;
+}
+
+.child > .learnmore:hover {
+  background-color: #1f484f;
+  color: #cce5e6;
+  transform: scale(1.3);
+}
+
+#overall {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-div > .hidden > img {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .child {
+    height: auto;
+    width: 250px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .learnmore {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  #overall > .main-div > .more-info {
+    font-size: 12px;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/product.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+      </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+
+    
+    <nav style="
+    background-color: #92c7cf;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+  " class="navbar navbar-expand-md navbar-LIGHT">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img style="height: 80px; width: 80px" src="homeimage/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" >
+            <li class="nav-item">
+              <a style="font-weight: bolder;color:black" class="nav-link " href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-weight: bolder;color:black"  class="nav-link" href="about.html">ABOUT</a>
+            </li>
+
+            <li class="nav-item">
+              <a style="font-weight: bolder;color:black"  class="nav-link" href="product.html">PRODUCT</a>
+            </li>
+
+            <li class="nav-item">
+              <a style="font-weight: bolder;color:black"  class="nav-link" href="service.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-weight: bolder;color:black"  class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="home-banner" class="banner">
+      <h1 style="font-size: 40px;background-color: #1414149e;color:white;font-weight: bold;  font-family:Roboto Serif, system-ui;
+      ">Strength and Style in Every Piece</h1>
+    </div>
+
+    <!-- <div id="Cart">
+      <h1>Shopping cart</h1>
+      <div class="listclass">
+        show item here
+      </div>
+      <div class="btn">
+      <button class="close">Close</button>
+      <button class="check-out">Check Out</button>
+    </div>
+  </div> -->
+
+    <div id="main">
+      <div id="left-bottom">
+        <h6 style="font-family:Kanit, sans-serif;
+        ">Product Category</h6>
+        <ul class="product-list">
+          <li ><a href="Furniture.html" style="font-family:Roboto Serif, system-ui">Furniture</a></li>
+          <li ><a href="Tools.html" style="font-family:Roboto Serif, system-ui">Tools</a></li>
+          <li ><a href="Roofingpanels.html" style="font-family:Roboto Serif, system-ui">Roofing Panels</a></li>
+          <li ><a href="grils.html" style="font-family:Roboto Serif, system-ui">Grills</a></li>
+          <li ><a href="construction.html" style="font-family:Roboto Serif, system-ui">Construction Steel</a></li>
+      </ul>
+
+        <h6 style="  font-family: Kanit, sans-serif;
+        ">Popular Product</h6>
+        <div class="img">
+          <img style="margin:5px 5px ;" src="productimage/steel roofing.jpg" alt="" />
+          <h2 style="font-size: 20px;font-family:Roboto Serif, system-ui">Metal roofing sheet.0.50mm</h2>
+        </div>
+        
+
+        <div class="img">
+          <img style="margin:5px 5px ;"  src="productimage/steel roofing.jpg" alt="" />
+          <h2 style="font-size: 20px;font-family:Roboto Serif, system-ui">stainless roof</h2>
+        </div>
+
+        <div class="img">
+          <img style="margin:5px 5px ;"  src="productimage/white roof.jpg" alt="" />
+          <h2 style="font-size: 20px;font-family:Roboto Serif, system-ui">MW2 Roof</h2>
+        </div>
+
+        <div class="img">
+          <img style="margin:5px 5px ;"  src="productimage/gray.webp" alt="" />
+          <h2 style="font-size: 20px;font-family:Roboto Serif, system-ui">Fiber roof</h2>
+        </div>
+      </div>
+      
+
+      <div class="product-container">
+        <div  class="sub-product">
+          <div data-type="0" class="img-card">
+            <img src="productimage/insulated-roof-1.jpg" alt="" />
+            <h4 style="font-family:Roboto Serif, system-ui">Insulated Wall panel</h4> 
+          </div>
+          <div class="back-img">
+            <p>NU.90/kg</p>
+            <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order: 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()" class="cart">Add to Cart</button> -->
+          
+          </div>
+        </div>      
+
+        <div class="sub-product">
+            <div data-type="1" class="img-card">
+              <img src="productimage/steel 2.webp" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Steel Roofing panel</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.90/kg</p>
+              <pre><p style="font-size: 17px;">Grade：4032 4043 
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+          <div class="sub-product">
+            <div data-type="3" class="img-card">
+              <img src="folder/Bed furniture.jpg" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Bed Furniture</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.19,999</p>
+              <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+    Design style: customizable
+    Delivery time: 5-10 days
+    Transportation: land 
+    Minimum order: 0.5 ton.</p></pre>
+    <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+             
+          <div class="sub-product">
+          <div data-type="4"class="img-card">
+            <img src="folder/garden furniture.webp" alt="" />
+            <h4 style="font-family:Roboto Serif, system-ui">Garden Furniture</h4>
+          </div>
+          <div class="back-img">
+            <p>NU.21,971</p>
+            <pre><p style="font-size: 17px;">Grade：4032 4643etc
+    Design style: customizable
+    Delivery time: 5-10 days
+    Transportation: land 
+    Minimum order : 0.5 ton.</p>
+          </div><pre>
+            <!-- <button onclick="addToCart()" class="cart">Add to cart</button> -->
+          </div>
+          
+  
+          <div data-pro="0" class="sub-product">
+              <div data-type="5" class="img-card">
+                <img src="folder/Metal Manufacturer Chair.jpg" alt="" />
+                <h4 style="font-family:Roboto Serif, system-ui">Waiting chair</h4>
+              </div>
+              <div class="back-img">
+                <p>NU.5,038.54</p>
+                <pre><p style="font-size: 17px;">Grade：4032 4043 
+    Design style: customizable
+    Delivery time: 5-10 days
+    Transportation: land 
+    Minimum order : 0.5 ton.</p></pre>
+    <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+              </div>
+            </div>
+  
+            <div class="sub-product">
+              <div data-type="6" class="img-card">
+                <img src="folder/Steel Furniture.webp" alt="" />
+                <h4 style="font-family:Roboto Serif, system-ui">Steel Furniture</h4>
+              </div>
+              <div class="back-img">
+                <p>NU.1,200</p>
+                <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+    Design style: customizable
+    Delivery time: 5-10 days
+    Transportation: land 
+    Minimum order : 2 ton.</p></pre>
+    <!-- <button onclick="addToCart()" class="cart">Add to cart</button> -->
+              </div>
+            </div>
+  
+            <div class="sub-product">
+              <div data-type="7" class="img-card">
+                <img src="folder/Steel Wire Chair.jpg" alt="" />
+                <h4 style="font-family:Roboto Serif, system-ui">Steel Wire Chair</h4>
+              </div>
+              <div class="back-img">
+                <p>NU.2,510.8768</p>
+                <pre><p style="font-size: 17px;">Grade：4032 4643etc
+    Design style: customizable
+    Delivery time: 5-10 days
+    Transportation: land 
+    Minimum order : 0.5 ton.</p></pre>
+    <!-- <button onclick="addToCart()" class="cart">Add to cart</button> -->
+              </div>
+            </div>
+  
+            <div class="sub-product">
+              <div data-type="8" class="img-card">
+                <img src="folder/chair.jpg" alt="" />
+                <h4 style="font-family:Roboto Serif, system-ui">chair</h4>
+              </div>
+              <div class="back-img">
+                <p>NU.3,200.00</p>
+                <pre><p style="font-size: 17px;">Grade：ASTM A36 A36M
+    Delivery time: 5-10 days
+    Transportation: land 
+    Minimum order: 1 ton.</p></pre>
+    <!-- <button  onclick="addToCart()" class="cart">Add to cart</button> -->
+              </div>
+            </div>
+  
+            <div class="sub-product">
+              <div data-type="9" class="img-card">
+                <img src="folder/hammer.jpg" alt="" />
+                <h4 style="font-family:Roboto Serif, system-ui">Hammer</h4>
+              </div>
+              <div class="back-img">
+                <p>NU.3,601</p>
+                <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button  onclick="addToCart()" class="cart">Add to cart</button> -->
+              </div>
+            </div>
+  
+              <div class="sub-product">
+                <div data-type="10" class="img-card">
+                  <img src="folder/pliers.jpg" alt="" />
+                  <h4 style="font-family:Roboto Serif, system-ui">Pliers</h4>
+                </div>
+                <div class="back-img">
+                  <p>NU.1,200</p>
+                  <pre><p style="font-size: 17px;">Grade：4032 4043 
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                </div>
+                </div>
+  
+                <div class="sub-product">
+                  <div data-type="11" class="img-card">
+                    <img src="folder/spanner.jpg" alt="" />
+                    <h4 style="font-family:Roboto Serif, system-ui">Spanner</h4>
+                  </div>
+                  <div class="back-img">
+                    <p>NU.320</p>
+                    <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                  </div>
+                </div>
+  
+                  <div class="sub-product">
+                    <div data-type="12" class="img-card">
+                      <img src="folder/tong-min.webp" alt="" />
+                      <h4 style="font-family:Roboto Serif, system-ui">Tong</h4>
+                    </div>
+                    <div class="back-img">
+                      <p>NU.4,984</p>
+                      <pre><p style="font-size: 17px;">Grade：ST13 ST14 ST37
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                    </div>
+                  </div>
+  
+                    <div class="sub-product">
+                      <div data-type="13" class="img-card">
+                        <img src="folder/try square.jpg" alt="" />
+                        <h4 style="font-family:Roboto Serif, system-ui">try square</h4>
+                      </div>
+                      <div class="back-img">
+                        <p>NU.249</p>
+                        <pre><p style="font-size: 17px;">Grade：Ck75 SS400 .Gr.B.Gr.C
+  Design style: customizable
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                      </div>
+                    </div>
+  
+                       <div class="sub-product">
+                        <div data-type="14" class="img-card">
+                          <img src="folder/welding Torch.jpg" alt="" />
+                          <h4 style="font-family:Roboto Serif, system-ui">Welding Torch</h4>
+                        </div>
+                        <div class="back-img">
+                          <p>NU.2,380</p>
+                          <pre><p style="font-size: 17px;">Grade：DC04 Sae-1010
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                        </div>
+                      </div>
+  
+  
+
+           <div class="sub-product">
+            <div data-type="15" class="img-card">
+              <img src="productimage/white roof.jpg" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">White Roofing panel</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.120/kg</p>
+              <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+          <div class="sub-product">
+            <div data-type="16" class="img-card">
+              <img src="productimage/clear roof.avif" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Clear Roofing panel</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.99/kg</p>
+              <pre><p style="font-size: 17px;">Grade：4032 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+          <div class="sub-product">
+            <div data-type="17" class="img-card">
+              <img src="productimage/h beam.png" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">H-beam</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.168/kg</p>
+              <pre><p style="font-size: 17px;">Grade：ASTM A36 A36M
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order: 1 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+          <div class="sub-product">
+            <div data-type="18" class="img-card">
+              <img src="productimage/Welded-Pipes.webp" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Welded Pipes</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.1250/kg</p>
+              <pre><p style="font-size: 17px;">Grade：A135 ASTM A252
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 1.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+          
+
+          <div class="sub-product">
+            <div data-type="19" class="img-card">
+              <img src="productimage/carbon steel plate.webp" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">carbon steel plate</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.80/kg</p>
+              <pre><p style="font-size: 17px;">Grade：DC04 Sae 1010 S235Jr
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order quantity: 1 ton.</p></pre>
+  <!-- <button  onclick="addToCart()" class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+          <div class="sub-product">
+            <div data-type="20" class="img-card">
+              <img src="productimage/steel plate.webp" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Steel Plate</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.129/kg</p>
+              <pre><p style="font-size: 17px;">Grade：Q690C Q890C Q890D
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 1 ton.</p></pre>
+  <!-- <button  onclick="addToCart()" class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+          <div class="sub-product">
+            <div data-type="21" class="img-card">
+              <img src="productimage/door grill box.jpg" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Box door grill</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.120/kg</p>
+              <pre><p style="font-size: 17px;">Grade：4032 4043 
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+          
+
+          <div class="sub-product">
+            <div data-type="22" class="img-card">
+              <img src="productimage/line window.jpg" alt="" />
+              <h4 style="font-family:Roboto Serif, system-ui">Line window grill</h4>
+            </div>
+            <div class="back-img">
+              <p>NU.130/kg</p>
+              <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order: 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+            </div>
+          </div>
+
+            <div class="sub-product">
+              <div data-type="23" class="img-card">
+                <img src="productimage/swril window grill.webp" alt="" />
+                <h4 style="font-family:Roboto Serif, system-ui">Swrill window door grill</h4>
+              </div>
+              <div class="back-img">
+                <p>NU.125/kg</p>
+                <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+              </div>
+            </div>
+
+              <div class="sub-product">
+                <div data-type="24" class="img-card">
+                  <img src="productimage/window fancy grill.jpg" alt="" />
+                  <h4 style="font-family:Roboto Serif, system-ui">Absturct window grill</h4>
+                </div>
+                <div class="back-img">
+                  <p>NU.90/kg</p>
+                  <pre><p style="font-size: 17px;">Grade：4032 4043 
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                </div>
+                </div>
+
+                <div class="sub-product">
+                  <div data-type="25" class="img-card">
+                    <img src="productimage/window-grill-fancy.webp" alt="" />
+                    <h4 style="font-family:Roboto Serif, system-ui">Fancy Window grill</h4>
+                  </div>
+                  <div class="back-img">
+                    <p>NU.90/kg</p>
+                    <pre><p style="font-size: 17px;">Grade：4032 4043 4643etc
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                  </div>
+                </div>
+
+                  <div class="sub-product">
+                    <div data-type="26" class="img-card">
+                      <img src="productimage/ps wall panel.webp" alt="" />
+                      <h4 style="font-family:Roboto Serif, system-ui">PS Wall panel</h4>
+                    </div>
+                    <div class="back-img">
+                      <p>NU.90/kg</p>
+                      <pre><p style="font-size: 17px;">Grade：ST13 ST14 ST37
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                    </div>
+                  </div>
+
+                    <div class="sub-product">
+                      <div data-type="27" class="img-card">
+                        <img src="productimage/stainless-steel-wall-panels.jpg" alt="" />
+                        <h4 style="font-family:Roboto Serif, system-ui">Stainless deco wall panel</h4>
+                      </div>
+                      <div class="back-img">
+                        <p>NU.99kg</p>
+                        <pre><p style="font-size: 17px;">Grade：Ck75 SS400 .Gr.B.Gr.C
+  Design style: customizable
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button onclick="addToCart()"  class="cart">Add to cart</button> -->
+                      </div>
+                    </div>
+
+                       <div class="sub-product">
+                        <div data-type="28" class="img-card">
+                          <img src="productimage/Decorative-Metal-wall.webp" alt="" />
+                          <h4 style="font-family:Roboto Serif, system-ui">stylish metal wall panel</h4>
+                        </div>
+                        <div class="back-img">
+                          <p>NU.119/kg</p>
+                          <pre><p style="font-size: 17px;">Grade：DC04 Sae-1010
+  Design style: customizable
+  Delivery time: 5-10 days
+  Transportation: land 
+  Minimum order : 0.5 ton.</p></pre>
+  <!-- <button  onclick="addToCart()" class="cart">Add to cart</button> -->
+                        </div>
+                      </div>
+
+        </div>
+ 
+      </div>
+    
+
+      <div id="sidebox">
+        <div class="whatsapp">
+          <i style="font-size: 20px;"  class="fa-brands fa-whatsapp"></i>
+          <p class="hide-text">+975 17171717</p>
+        </div>
+        <div class="phone">
+          <i  style="font-size: 20px;" class="fa-solid fa-phone"></i>
+          <p class="hide-text">+975 17171717</p>
+        </div>
+        <div class="email">
+          <i  style="font-size: 20px;"  class="fa-regular fa-envelope"></i>
+          <p class="hide-text">metalmaster.gmail.com</p>
+        </div>
+        <a href="#top"
+          ><div class="arrow"><i class="fa-solid fa-angle-up"></i></div
+        ></a>
+      </div>
+
+   
+      <footer>
+        <div id="footerBox">
+          <div class="navigation">
+            <h3 style="font-family: Roboto Serif, system-ui">NAVIGATION</h3>
+            <nav>
+              <a href="home.html">Home</a><br />
+              <a href="about.html">About</a><br />
+              <a href="product.html">Product</a><br />
+              <a href="service.html">Service</a><br />
+              <a href="contact.html">Contact Us</a>
+            </nav>
+          </div>
+  
+          <div class="product">
+            <h3 style="font-family: Roboto Serif, system-ui">PRODUCT</h3>
+            <nav>
+              <a href="Furniture.html">Furniture</a><br />
+              <a href="Tools.html">Tools</a><br />
+              <a href="Roofingpanels.html">Roofing panels</a><br />
+              <a href="construction.html">Construction steel</a><br />
+              <a href="grils.html">Grills</a>
+            </nav>
+          </div>
+  
+          <div class="contact">
+            <h3 style="font-family: Roboto Serif, system-ui">CONTACT US</h3>
+            <nav>
+              <pre><a href="#"><i style="font-size:20px;"  class="fa-solid fa-envelope"></i> &nbsp; metalmaster.gmail.com</a><br>
+  <a href="#"><i style="font-size:20px;" class="fa-solid fa-phone"></i>&nbsp;&nbsp +975 17171717</a><br>
+  <a href="#"><i style="font-size:20px;"  class="fa-brands fa-whatsapp"></i> &nbsp;&nbsp;+975 17171717</a><br>
+  <a href="#"><i style="font-size:20px;"  class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;Yongphula DSP Center</a></pre>
+              <br />
+            </nav>
+          </div>
+  
+          <div>
+            <img id="qr-code" src="service-img/logo.png" />
+          </div>
+        </div>
+  
+        <hr id="line" />
+        <marquee><p id="copy">&copy;Metal Master(ལྕགས་རིགས་སྣ་ཚོགས)</p></marquee>
+      </footer>
+     
+    <script type="text/javascript" src="product.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
