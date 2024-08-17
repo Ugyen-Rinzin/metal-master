@@ -562,7 +562,7 @@ hr {
   #container {
     display: flex;
     height: auto;
-    width: 100%;
+    width: auto;
     justify-content: center;
   }
 
